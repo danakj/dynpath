@@ -3,7 +3,7 @@ authors = ["Dana Jansens <danakj@orodu.net>"]
 description = "An attribute macro to specify a path to a module dynamically."
 license = "MIT/Apache-2.0"
 name = "dynpath"
-version = "0.1.0"
+version = "0.1.1"
 repository = "https://github.com/danakj/dynpath"
 
 [lib]
