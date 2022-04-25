@@ -2,13 +2,16 @@
 
 [Documentation](https://docs.rs/dynpath)
 
-This crate provides a `#[dynpath()]` macro that can be placed a `mod` statement and which points
-the module to a dynamic path.
+This crate provides a `#[dynpath()]` macro that can be placed ob a `mod`
+statement, and which points the module to a dynamic path.
 
-The primary purpose of this crate is to include bindgen-generated bindings without an `include!()` statement. This allows for code completion and cross-references.
+The primary purpose of this crate is to include bindgen-generated bindings
+without an `include!()` statement. This allows for code completion and
+cross-references.
 
-The macro takes a single parameter which is the name of an environment variable to read the path
-from, and it appends the module name and `.rs` extension onto the contents of the variable.
+The macro takes a single parameter which is the name of an environment variable
+to read the path from, and it appends the module name and `.rs` extension onto
+the contents of the variable.
 
 ## Example
 ```rs

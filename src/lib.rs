@@ -1,5 +1,5 @@
-//! This crate provides a `#[dynpath()]` macro that can be placed a `mod`
-//! statement and which points the module to a dynamic path.
+//! This crate provides a `#[dynpath()]` macro that can be placed on a `mod`
+//! statement, and which points the module to a dynamic path.
 //!
 //! The primary purpose of this crate is to include bindgen-generated bindings
 //! without an `include!()` statement. This allows for code completion and
