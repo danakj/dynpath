@@ -2,7 +2,7 @@
 
 [Documentation](https://docs.rs/dynpath)
 
-This crate provides a `#[dynpath()]` macro that can be placed ob a `mod`
+This crate provides a `#[dynpath()]` macro that can be placed on a `mod`
 statement, and which points the module to a dynamic path.
 
 The primary purpose of this crate is to include bindgen-generated bindings
